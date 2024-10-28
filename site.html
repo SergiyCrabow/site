@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>План Похудіння</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Головна</a></li>
+            <li><a href="#" onclick="showSection('plan')">План похудіння</a></li>
+            <li><a href="#" onclick="showSection('about')">Що таке похудіння?</a></li>
+            <li><a href="#" onclick="showSection('partners')">Партнери</a></li>
+            <li><a href="#" onclick="showSection('sign-up')">Записатися на курс</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Ласкаво просимо до нашого сайту про похудіння!</h1>
+        <div class="column-container">
+            <div class="column">
+                <p>Ми допоможемо вам досягти ваших цілей завдяки нашій спеціальній програмі похудіння.</p>
+                <p>Що представляє собою наш курс? Це цілеспрямований шлях до вашого здорового тіла завдяки нашим надійним лікарям, фітнестренерам та іншим (не менш важливим) спеціалістам.</p>
+                <p>Ми - компанія з великим досвідом. Кожен із нас роками перевірений. Тому ми підходимо до кожного максимально індивідуально, аби домогтися потрібного результату.</p>
+            </div>
+            <div class="column">
+                <img src="https://sanatorii.com.ua/storage/web/source/1/oJpXgKihMHqfTbOVM7W1oBXdx-uxSCuQ.jpg" alt="Здоровий стиль життя" />
+            </div>
+        </div>
+    </section>
+
+    <section id="plan" style="display:none;">
+        <h1>Чіткий план похудіння</h1>
+        <div class="column-container">
+            <div class="column">
+                <ul>
+                    <li>1. Почніть з легких фізичних вправ.</li>
+                    <li>2. Контролюйте харчування, дотримуйтесь дефіциту калорій.</li>
+                    <li>3. Відстежуйте результати щотижня.</li>
+                    <li>4. Консультуйтеся з нашими лікарями.</li>
+                    <li>5. Дотримуйтесь графіку прийому їжі.</li>
+                    <li>6. Відвідуйте дієтолога раз на 2 тижні.</li>
+                </ul>
+            </div>
+            <div class="column">
+                <table>
+                    <tr>
+                        <th>Тиждень</th>
+                        <th>Вправа</th>
+                        <th>Тривалість</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Легка пробіжка</td>
+                        <td>30 хв</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Силові тренування</td>
+                        <td>40 хв</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Аеробіка</td>
+                        <td>30 хв</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="display:none;">
+        <h1>Що таке похудіння?</h1>
+        <div class="column-container">
+            <div class="column">
+                <p>Похудіння — це процес зниження ваги за допомогою правильної дієти і фізичних вправ. Ви можете похудіти навіть без активних тренувань, якщо дотримуватиметесь дефіциту калорій!</p>
+                <p>Переваги фізичної активності для похудіння:
+                    Спалювання калорій: Регулярні тренування (кардіо, силові, інтервальні) допомагають спалювати зайві калорії, що сприяє зниженню ваги.
+                    Підвищення метаболізму: Силові тренування сприяють збільшенню м'язової маси, що підвищує швидкість метаболізму навіть у стані спокою.
+                    Покращення здоров'я серця: Кардіо-вправи (біг, плавання, їзда на велосипеді) не лише спалюють калорії, але й зміцнюють серцево-судинну систему.</p>
+                    <p>Поєднання дієти і спорту:
+                        Дефіцит калорій: Для ефективного похудіння важливо споживати менше калорій, ніж витрачається. Фізична активність створює додатковий дефіцит калорій, що полегшує схуднення без екстремальних обмежень у харчуванні.
+                        Збалансоване харчування: Важливо поєднувати фізичні навантаження зі здоровим харчуванням. Протеїни підтримують м'язи, вуглеводи дають енергію для тренувань, а жири забезпечують відчуття ситості.</p>
+
+            </div>
+            <div class="column">
+                <h2>Комплекс вправ для похудіння:</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I6xjhwN_wVw?si=iLOeZq6bMuefnwGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <script src="script.js"></script>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="partners" style="display:none;">
+        <h1>Наші партнери</h1>
+        <div class="column-container">
+            <div class="column">
+                <p>Ми співпрацюємо з такими компаніями:</p>
+                <ul>
+                    <li>FitLife - добавки для спортсменів</li>
+                    <li>HealthyWay - органічні продукти</li>
+                    <li>Sportavita - професійні тренування для схуднення</li>
+                    <li>Lifehealth - кваліфіковані дієтологи</li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="https://api.psychologos.ru/storage/image/133823195_13dd92f2d6_o_1400757259.jpg" alt="Наші партнери" />
+            </div>
+        </div>
+    </section>
+
+    <section id="sign-up" style="display:none;">
+        <h1>Запишіться на наш курс</h1>
+        <div class="column-container">
+            <div class="column">
+                <p>Заповніть форму, щоб записатися на курс.</p>
+                <button onclick="window.location.href='https://docs.google.com/forms/d/1KUfSspxapGLz4sP_UcfvQJ7gTqQ9Bb6FcBw0kKlpGGc'">Записатися зараз</button>
+            </div>
+            <div class="column">
+                <img src="https://1news.com.ua/wp-content/uploads/2021/01/megakupon-skidki-do-100-na-uchastie-v-marafone-pohudeniya-v-kompaniya-hudey-ka.jpg" alt="Запис на курс" />
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
